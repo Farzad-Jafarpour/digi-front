@@ -12,22 +12,18 @@ const Body = () => {
       mr: "11px",
       ml: "11px",
     },
-    largeScreens: {
-      display: {
-        display: { lg: "flex", md: "none", sm: "none", xs: "none" },
-        flexGrow: 1,
-      },
-    },
 
     imageBox: {
       display: "flex",
       flexGrow: 1,
+      flexWrap: "wrap",
       mt: "24px",
       p: "8px 12px",
     },
     imageContainer: {
       display: "flex",
       flexGrow: 1,
+      flexBasis: { lg: "12.5%", md: "25%", sm: "25%", xs: "25%" },
       flexDirection: "column",
       justifyContent: "center",
       alignItems: "center",
@@ -97,3 +93,5 @@ const Body = () => {
 };
 
 export default Body;
+
+/*  */
